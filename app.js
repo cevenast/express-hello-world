@@ -40,6 +40,6 @@ app.use('*', (req,res) => {
     .end()
 })
 
-app.get('/another/',(req,res) => res.send('./public/another.html')
+app.get('/another/',(req,res) => res.send('./public/another.html'))
 
 module.exports = app
